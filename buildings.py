@@ -102,9 +102,8 @@ pred = model.predict(X[23].reshape(1,150,150,1))
 pred = pred.reshape(150,150,3)
 plot_pair(X[23],pred)
 
-#%%
-predict('../input/intel-image-classification/seg_test/seg_test/mountain/20356.jpg')
 
-predict('../input/intel-image-classification/seg_test/seg_test/mountain/20174.jpg')
 
-predict('../input/intel-image-classification/seg_test/seg_test/mountain/20435.jpg')
+
+
+
